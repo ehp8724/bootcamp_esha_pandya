@@ -1,0 +1,29 @@
+# Stakeholder Memo: Counterparty Credit Risk Monthly Reporting
+
+**To:** Chief Risk Officer (CRO)  
+**From:** Risk Analytics Team  
+**Date:** 20Aug25
+**Subject:** Problem Framing & Scoping for CCR Monthly Reporting Tool  
+
+### Problem
+Current counterparty credit risk (CCR) reporting is manual and prone to delays. Regulators (Basel III/IV) require accurate monthly reporting of exposures and capital requirements, and the CRO needs timely oversight to manage firm-wide risk.  
+
+### Stakeholder & Users
+- **Stakeholder:** Chief Risk Officer (CRO)  
+- **Users:** Risk Analysts  
+
+### Useful Answer
+We propose a reporting tool that calculates **Exposure at Default (EAD)** and **Probability of Default (PD)**, and produces a **monthly table of counterparties** with their capital requirements.  
+
+### Assumptions
+- Exposure data and credit ratings are available at month-end.  
+- Basel capital rules can be consistently applied across all counterparties.  
+- The report can be generated within regulatory deadlines.  
+
+### Risks
+- Missing or outdated exposure or PD data.  
+- Regulatory changes that require formula updates.  
+
+### Next Steps  
+- Collect month-end exposure and credit data.  
+- Implement EAD × PD calculations and monthly reporting format.  
